@@ -1,0 +1,12 @@
+<server description="MainServer">
+    <featureManager>
+        <feature>servlet-6.0</feature>
+        <feature>cdi-4.0</feature>
+        <feature>jndi-1.0</feature>
+        <feature>jdbc-4.3</feature>
+    </featureManager>
+
+    <library id="PostgresLib">
+        <file name="${shared.resource.dir}/postgres/postgresql.jar"/>
+    </library>
+</server>
